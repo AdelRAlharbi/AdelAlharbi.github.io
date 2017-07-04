@@ -14,22 +14,25 @@ padding: 45px 0 20px 40px;
 } 
 
 #header a {
-color: #121212;
 text-decoration: none;
 font-size: 30px; 
-font-family: "Myriad Pro", "Arial Narrow";
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 #menu {
-background-color: #3b7687; 
-padding: 6px 0 6px 40px;
+background-color: #00008B; 
+text-align: center
 }
 
 #menu a {
 color: #c5d6db;
 text-decoration: none; 
-font-size: 14px; 
-font-family: "Arial Narrow", "Myriad Pro";
+font-size: 16px; 
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
 }
 
 #menu a:hover {
@@ -44,17 +47,24 @@ margin: 0;
 }
 
 h1 {
-margin: 0px;
-color: #869843; 
-font-size:24px; 
-font-family: "Arial Narrow", "Myriad Pro"; 
-font-weight: normal;
+margin: 20px 0 5px 0;
+color: #00008B; 
+font-size:16px;
+font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
-color: #3b7687;
+color: #2F4F4F;
 font-size: 15px; 
 margin: 20px 0 5px 0;
+font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+color: #3b7687;
+font-size: 14px; 
+margin: 20px 0 5px 0;
+font-family: "Times New Roman", Times, serif;
 }
 
 #main { 
@@ -102,4 +112,40 @@ color:#FFFFFF;
 img {
     display: block;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 779px){
+	#container { 
+		width: 100%;
+	}
+	#header a {
+		font-size: 23px;
+	}
+	#menu a {
+		font-size: 13px; 
+	}
+	h1 {
+		font-size: 13px;
+	}
+	h2 {
+		font-size: 12px;
+	}
+	h3 {
+		font-size: 11px;
+	}
+	#main {
+		font-size: 10px; 
+	}
+	#footer {
+		font-size: 8px;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#container { 
+		width: 320px;
+	}
 }

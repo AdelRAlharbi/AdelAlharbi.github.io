@@ -24,7 +24,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
 #menu {
 background-color: #00008B; 
-text-align: center
+text-align: left;
 }
 
 #menu a {
@@ -92,7 +92,7 @@ background: #d6d6d6;
 font-family: "Lucida Sans Unicode";
 color: #444444;
 font-size: 11px;
-text-align: center;
+text-align: left;
 }
 
 #footer a {
